@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="SurveyTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="singleAnswerStyle">@style/MySingleAnswerStyle</item>
+        <item name="multipleAnswerStyle">@style/MyMultipleAnswerStyle</item>
+        <item name="multipleAnswerCheckStyle">@style/MyMultipleAnswerStyle.CheckStyle</item>
+        <item name="questionBodyStyle">@style/MyQuestionBodyStyle</item>
+        <item name="questionBodyTextViewStyle">@style/MyQuestionBodyTextViewStyle</item>
+    </style>
+
+    <style name="MySingleAnswerStyle" parent="SingleAnswerStyle">
+        <item name="singleAnswerStyle">@style/MySingleAnswerStyle.CheckBoxStyle</item>
+    </style>
+
+    <style name="MySingleAnswerStyle.CheckBoxStyle" parent="SingleAnswerStyle.RadioButton">
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
+    <style name="MyMultipleAnswerStyle" parent="MultipleAnswerStyle">
+        <item name="multipleAnswerStyle">@style/MySingleAnswerStyle.CheckBoxStyle</item>
+    </style>
+    <style name="MyMultipleAnswerStyle.CheckStyle" parent="MultipleAnswerStyle.CheckBox">
+        <item name="android:colorControlNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- 本文 -->
+    <style name="MyQuestionBodyStyle" parent="QuestionBodyStyle" />
+    <style name="MyQuestionBodyTextViewStyle" parent="QuestionBodyStyle.TextView" />
+
+</resources>

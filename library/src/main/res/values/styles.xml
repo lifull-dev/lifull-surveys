@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 本文 -->
+    <style name="QuestionBodyStyle" parent="Theme.AppCompat.Light">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="QuestionBodyStyle.TextView" parent="Widget.AppCompat.TextView" />
+
+    <!--  -->
+    <style name="SingleAnswerStyle" parent="Theme.AppCompat.Light">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="SingleAnswerStyle.RadioButton" parent="Theme.AppCompat.Light">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!--  -->
+    <style name="MultipleAnswerStyle" parent="Theme.AppCompat.Light">
+    </style>
+    <style name="MultipleAnswerStyle.CheckBox" parent="Theme.AppCompat.Light">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="MultipleAnswerStyle.EditText" parent="Theme.AppCompat.Light">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!--  -->
+    <style name="OpenEndedStyle" parent="Theme.AppCompat.Light" />
+    <style name="OpenEndedStyle.Layout" parent="Theme.AppCompat.Light" />
+    <style name="OpenEndedStyle.EditText" parent="Theme.AppCompat.Light">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="SurveyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="android:text">?android:text</item>
+        <item name="colorControlHighlight">?colorControlHighlight</item>
+        <item name="colorControlNormal">?colorControlNormal</item>
+        <item name="colorControlActivated">?colorControlActivated</item>
+    </style>
+</resources>

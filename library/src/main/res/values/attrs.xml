@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuestionBody">
+        <attr name="questionBodyStyle" format="reference" />
+        <attr name="questionBodyTextViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SingleAnswer">
+        <attr name="singleAnswerStyle" format="reference" />
+        <attr name="singleAnswerCheckStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MultipleAnswer">
+        <attr name="multipleAnswerStyle" format="reference" />
+        <attr name="multipleAnswerCheckStyle" format="reference" />
+        <attr name="multipleAnswerEditTextStyle" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="OpenEnded">
+        <attr name="openEndedLayoutStyle" format="reference" />
+        <attr name="openEndedEditTextStyle" format="reference" />
+    </declare-styleable>
+</resources>

@@ -12,10 +12,14 @@
 Lifull Survey is a library for introducting surveys in the application.
 
 ## Features
-・Multiple Questionnaire Pages 
+・Multiple Questionnaire Pages
+
 ・Any Answer Type
+
   ・Single Answer
+
 　・Multiple Answers
+
 　・OpenEnded
 
 

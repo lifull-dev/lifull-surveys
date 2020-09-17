@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SurveyTheme" parent="Theme.AppCompat.Light">
+        <item name="questionBodyStyle">@style/QuestionBodyStyle</item>
+        <item name="questionBodyTextViewStyle">?questionBodyTextViewStyle</item>
+        <item name="singleAnswerStyle">@style/SingleAnswerStyle</item>
+        <item name="singleAnswerCheckStyle">@style/SingleAnswerStyle.RadioButton</item>
+        <item name="multipleAnswerStyle">@style/MultipleAnswerStyle</item>
+        <item name="multipleAnswerCheckStyle">@style/MultipleAnswerStyle.CheckBox</item>
+        <item name="openEndedLayoutStyle">@style/OpenEndedStyle.Layout</item>
+        <item name="openEndedEditTextStyle">@style/OpenEndedStyle.EditText</item>
+    </style>
+
+</resources>
